@@ -74,8 +74,8 @@ public class DalModule {
 
     Map<String, DataSource> createDataSourceMap() {
         Map<String, DataSource> result = new HashMap<>();
-        result.put("ds0", DataSourceUtil.createDataSource("ds0"));
-        result.put("ds1", DataSourceUtil.createDataSource("ds1"));
+        result.put("ds0", DataSourceUtil.createDataSource("main_data_test_v2"));
+        result.put("ds1", DataSourceUtil.createDataSource("main_data"));
         return result;
     }
 

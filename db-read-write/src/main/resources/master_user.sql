@@ -2,7 +2,7 @@
 
 DROP TABLE IF EXISTS `tab_user`;
 
-CREATE TABLE `tab_user` (
+CREATE TABLE `tab_user0` (
   `id` bigint(32) unsigned NOT NULL AUTO_INCREMENT COMMENT '主键',
   `name` varchar(64) DEFAULT NULL COMMENT '姓名',
   `sex` varchar(32) DEFAULT NULL COMMENT '性别',
@@ -14,7 +14,7 @@ CREATE TABLE `tab_user` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 
-INSERT INTO `tab_user` (`id`, `name`, `sex`, `age`, `create_time`, `update_time`, `status`)
+INSERT INTO `tab_user0` (`id`, `name`, `sex`, `age`, `create_time`, `update_time`, `status`)
 VALUES
 	(1,'爸爸','男',29,'2019-10-08 20:11:43','2019-10-08 20:11:43',0);
 

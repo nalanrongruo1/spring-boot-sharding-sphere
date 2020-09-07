@@ -3,6 +3,7 @@ package com.oujiong.mapper;
 
 import com.oujiong.entity.User;
 import org.apache.ibatis.annotations.Mapper;
+import org.springframework.stereotype.Repository;
 
 import java.util.List;
 
@@ -13,6 +14,7 @@ import java.util.List;
  * @date 2019/10/8 下午9:23
  */
 @Mapper
+@Repository
 public interface UserMapper {
 
     /**

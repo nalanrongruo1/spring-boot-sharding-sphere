@@ -12,13 +12,13 @@ import javax.sql.DataSource;
  */
 public final class DataSourceUtil {
 
-    private static final String HOST = "localhost";
+    private static final String HOST = "120.53.251.63";
 
     private static final int PORT = 3306;
 
     private static final String USER_NAME = "root";
 
-    private static final String PASSWORD = "root";
+    private static final String PASSWORD = "123456";
 
     public static DataSource createDataSource(final String dataSourceName) {
         DruidDataSource result = new DruidDataSource();
